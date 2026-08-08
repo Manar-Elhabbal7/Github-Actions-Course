@@ -1,0 +1,11 @@
+{
+  "name": "github-actions-course",
+  "version": "1.0.0",
+  "description": "GitHub Actions course practice project",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "bash src/test.sh"
+  },
+  "author": "",
+  "license": "ISC"
+}
