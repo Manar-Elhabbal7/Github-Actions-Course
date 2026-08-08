@@ -1,0 +1,13 @@
+on:
+    schedule:
+        - cron: "0 8 * * *"
+
+jobs:
+    daily-task:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout repository
+              uses: actions/checkout@v2
+
+            - name: Run daily task
+              run: echo "Running daily task..."
