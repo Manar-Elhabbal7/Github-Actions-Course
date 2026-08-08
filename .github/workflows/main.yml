@@ -13,8 +13,8 @@ jobs:
       - name : Print Welcome Message
         run : echo "Welcome to my Workflow! :) "
 
-      - name : Checkout Reposotory
-        uses : actions/checkout@v7.0.1
+      - name: Checkout Repository
+        uses: actions/checkout@v4
 
       - name : List Repo's files
         run:  ls -la
